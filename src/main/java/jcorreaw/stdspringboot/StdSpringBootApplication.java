@@ -24,13 +24,13 @@ public class StdSpringBootApplication {
 //		};
 //	}
 
-	@Bean
-	public CommandLineRunner run(SistemaMensagem sistema) throws Exception {
-		return args -> {
-			sistema.enviarConfirmacaoCadastro();
-			sistema.enviarMensagemBoasVindas();
-			sistema.enviarConfirmacaoCadastro();
-		};
-	}
+//	@Bean
+//	public CommandLineRunner run(SistemaMensagem sistema) throws Exception {
+//		return args -> {
+//			sistema.enviarConfirmacaoCadastro();
+//			sistema.enviarMensagemBoasVindas();
+//			sistema.enviarConfirmacaoCadastro();
+//		};
+//	}
 
 }
