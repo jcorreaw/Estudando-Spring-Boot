@@ -1,4 +1,4 @@
-package jcorreaw.stdspringboot;
+package jcorreaw.stdspringboot.primeirasAnotacoes;
 
 import org.springframework.stereotype.Component;
 
